@@ -1,5 +1,6 @@
 # N-Gram Extractor
-## This program is a Python-based n-gram extractor for processing text data in Excel files. It analyzes input text, extracts n-grams (contiguous sequences of n words), and calculates the frequency of each n-gram. The results are then saved to an output Excel file containing the original data along with the most frequent n-gram and its frequency for each text entry. Additionally, a separate sheet in the output file lists all unique n-grams and their frequencies.
+
+This program is a Python-based n-gram extractor for processing text data in Excel files. It analyzes input text, extracts n-grams (contiguous sequences of n words), and calculates the frequency of each n-gram. The results are then saved to an output Excel file containing the original data along with the most frequent n-gram and its frequency for each text entry. Additionally, a separate sheet in the output file lists all unique n-grams and their frequencies.
 
 ## Features
 - Read input data from an Excel file
@@ -21,9 +22,8 @@ To run the script directly, install the required packages using pip:
 ``pip install pandas openpyxl``
 
 To package the script into a standalone executable for Windows, use pyinstaller:
-``
-pip install pyinstaller
-pyinstaller --onefile ngram_extractor.py``
+``pip install pyinstaller``
+``pyinstaller --onefile ngram_extractor.py``
 
 The packaged executable will be located in the dist folder.
 
