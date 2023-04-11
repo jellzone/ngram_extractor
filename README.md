@@ -1,5 +1,6 @@
 # N-Gram Extractor
 [中文](README.zh_CN.md)
+
 This program is a Python-based n-gram extractor for processing text data in Excel files. It analyzes input text, extracts n-grams (contiguous sequences of n words), and calculates the frequency of each n-gram. The results are then saved to an output Excel file containing the original data along with the most frequent n-gram and its frequency for each text entry. Additionally, a separate sheet in the output file lists all unique n-grams and their frequencies.
 
 ## Features
