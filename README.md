@@ -13,6 +13,7 @@ This program is a Python-based n-gram extractor for processing text data in Exce
 - Ensure that the input file (输入数据.xlsx) is in the same directory as the executable.
 - Run the executable (ngram_extractor.exe) by double-clicking it or running it from the command line.
 - The program will process the input data and save the results to a new Excel file (输出结果.xlsx) in the same directory.
+- Please keep the header in the original data as "Title", otherwise an error may be reported
 ## Requirements
 1. Python 3.6 or newer
 2. pandas
